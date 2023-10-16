@@ -1,0 +1,13 @@
+.cayendo {
+    position: absolute;
+    animation-name: fall;
+    animation-timing-function: linear;
+}
+
+@keyframes fall {
+    from { transform: translateY(0); }
+    to { transform: translateY(100vh); }
+}
+body {
+    background: orange;
+}
