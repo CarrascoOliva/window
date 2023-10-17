@@ -1,3 +1,7 @@
+body {
+    background: orange;
+    overflow: hidden;
+}
 .cayendo {
     position: absolute;
     animation-name: fall;
@@ -7,7 +11,4 @@
 @keyframes fall {
     from { transform: translateY(0); }
     to { transform: translateY(100vh); }
-}
-body {
-    background: orange;
 }
